@@ -107,6 +107,43 @@ margin-top: 100px;
 
 .texts {
 	background-color: red;
-	
+}
+#by {
+	animation-name: email;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    width: 300px;
+    color: #ffffff;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+@keyframes email {
+0% {
+    transform: rotate(0deg);
+    left: 0px;
+}
+25% {
+    transform: rotate(20deg);
+    left: 0px;
+}
+50% {
+    transform: rotate(0deg);
+    left: 900px;
+}
+55% {
+    transform: rotate(0deg);
+    left: 900px;
 }
 
+70% {
+    transform: rotate(0deg);
+    left: 900px;
+    background: #1ec7e6;
+}
+100% {
+    transform: rotate(-360deg);
+    left: 0px;
+}
+}
