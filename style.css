@@ -69,28 +69,6 @@ width: 100px;
 a:hover {
 background: #095115;
 }
-/*.text {
-position: relative;
-display: block;
-}
-.head:first-child {
-top: 100px;
-left: 200px;
-}
-.head:nth-child(2) {
-top: 100px;
-left: 550px;
-}
-.head:last-child{
-top: 100px;
-left: 900px;
-}
-.head {
-text-align: justify;
-position: absolute;
-display: inline-block;
-width: 300px;
-}*/
 h1 {
 color: #fff;
 text-align: center;
@@ -98,7 +76,6 @@ text-shadow: 8px -5px 5px #095115;
 }
 .head {
 width: 30%;
-float: left;
 border: 1px solid #fff;
 padding: 10px;
 margin: 20px;
@@ -107,10 +84,11 @@ margin-top: 100px;
 
 .texts {
 	background-color: red;
+    display: flex;
 }
 #by {
 	animation-name: email;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     width: 300px;
     color: #ffffff;
@@ -127,6 +105,7 @@ margin-top: 100px;
 25% {
     transform: rotate(20deg);
     left: 0px;
+    background: #1ec7e6;
 }
 50% {
     transform: rotate(0deg);
@@ -140,7 +119,7 @@ margin-top: 100px;
 70% {
     transform: rotate(0deg);
     left: 900px;
-    background: #1ec7e6;
+    
 }
 100% {
     transform: rotate(-360deg);
